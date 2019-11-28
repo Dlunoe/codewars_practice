@@ -6,7 +6,8 @@
 // console.log(multiply(2,3));
 
 function disemvowel(str) {
-    var n = str.replace(/a|e|i|o|u|A|E|I|O|U/g, '');
+    // var n = str.replace(/a|e|i|o|u|A|E|I|O|U/g, '');
+    var n = str.replace(/a|e|i|o|u/gi, '');
     return n;
   }
 
