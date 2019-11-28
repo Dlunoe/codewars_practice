@@ -19,6 +19,7 @@ function repeatStr (n, s) {
         str = str + s;
     }
     return str;
+    // return s.repeat(n);
   }
 
   console.log(repeatStr(6, "HelloWorld"))
